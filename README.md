@@ -10,3 +10,6 @@
 3. Return a random decision rock, paper or scissors for the user player.
 4. Play a single round of RPS using the values returned for computer vs player to declare a winner.
 5. Create a function that plays 5 rounds of RPS to declare a winner.
+
+## Debugging
+- getComputerChoice() function wasn't working because of case-sensitivity.
