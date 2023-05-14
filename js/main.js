@@ -23,8 +23,17 @@ const getComputerChoice = () => {
 const getPlayerSelection = () => {
   let userInput = prompt('Type rock, paper or scissors.');
   let result = userInput.toLowerCase();
-  return result;
+
+  // VALIDATION
+  if (result === 'rock' || result === 'paper' || result === 'scissors') {
+    return result;
+  } else {
+    return 'Incorrect choice. Please choose rock, paper or scissors.';
+
+  }
 }
+
+console.log(getPlayerSelection());
 
 // PLAY ROUND FUNCTION
 function playRound(playerSelection, computerSelection) {
