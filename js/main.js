@@ -20,11 +20,13 @@ const getComputerChoice = () => {
 // console.log(getComputerChoice());
 
 // PLAYER SELECTION FUNCTION
-const getPlayerSelection = (playerChoice) => {
-  
+const getPlayerSelection = () => {
+  let userInput = prompt('Type rock, paper or scissors.');
+  let result = userInput.toLowerCase();
+  return result;
 }
 
 // PLAY ROUND FUNCTION
 function playRound(playerSelection, computerSelection) {
-  
+
 }
