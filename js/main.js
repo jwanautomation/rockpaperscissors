@@ -16,4 +16,15 @@ const getComputerChoice = () => {
     return 'Scissors';
   }
 }
- console.log(getComputerChoice());
+
+// console.log(getComputerChoice());
+
+// PLAYER SELECTION FUNCTION
+const getPlayerSelection = (playerChoice) => {
+  
+}
+
+// PLAY ROUND FUNCTION
+function playRound(playerSelection, computerSelection) {
+  
+}
